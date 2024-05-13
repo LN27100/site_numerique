@@ -6,8 +6,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config.php';
-require_once '../models/Userprofil.php';
-require_once '../models/Stones.php';
+require_once '../models/Pdf.php';
 
 
 // Récupère le nom et prénom de l'utilisateur

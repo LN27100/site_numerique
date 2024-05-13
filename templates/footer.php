@@ -10,19 +10,7 @@
 
           <div class="col-md-2">
             <h6 class="text-uppercase font-weight-bold">
-              <a href="../controllers/controller-shippingInfo.php" class="text-white">Info livraison</a>
-            </h6>
-          </div>
-
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="../controllers/controller-useStones.php" class="text-white">Usage des pierres</a>
-            </h6>
-          </div>
-
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="/controllers/controller-cgv.php" class="text-white">CGV</a>
+              <a href="/controllers/controller-cgv.php" class="text-white">CGU</a>
             </h6>
           </div>
 
@@ -37,14 +25,12 @@
               <a class="text-white">Contact</a>
             </h6>
           </div>
+
         </div>
       </section>
     </div>
 
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2024 Copyright Hélène Poirier-Halley
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024 Hélène Poirier-Halley
     </div>
   </footer>
