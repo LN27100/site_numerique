@@ -24,7 +24,7 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Cours Traitement de texte 
+                        Initiation au traitement de texte 
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/controllers/controller-blue.php" data-categoryId="1">Bleues</a></li>
@@ -44,7 +44,7 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Cours Tableur
+                        Initiation au tableur
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/controllers/controller-roulees.php">Pierres roulées</a></li>
@@ -56,10 +56,29 @@
                     </ul>
                 </li>
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Initiation au web 
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/controllers/controller-blue.php" data-categoryId="1">Bleues</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-green.php" data-categoryId="2">Vertes</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-purple.php" data-categoryId="3">Violettes</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-white.php" data-categoryId="3">Blanches</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-red.php" data-categoryId="3">Rouges</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-brown.php" data-categoryId="3">Marrons</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Jaunes</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Grises</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Noires</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Oranges</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Roses</a></li>
+                        <li><a class="dropdown-item" data-categoryId="3">Multicolores</a></li>
+                    </ul>
+                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Cours Stockages
+                        Méthodes de stockage
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/controllers/controller-roulees.php">Pierres roulées</a></li>
