@@ -65,10 +65,15 @@
                         <p>Vous souhaitez apprendre à utiliser un ordinateur? Ou simplement vous perfectionner en traitement de texte ou en tableur?
                             Vous ne connaissez pas les différents modes de stockages?
                         </p>
-                        <br>
                         <p>
                             Alors bienvenue sur mon site consacré au numérique.
-                            Vous y trouverez des cours, des fiches descriptives et également des exercices avec leurs corrections.
+                        </p>
+                        <p>
+                            Vous y trouverez des cours, des fiches détaillées.
+                        </p>
+                        <p>
+                            Un onglet est également consacré à des exercices que j'ai réalisé pour que vous puissiez tester votre apprentissage, savoir où vous en êtes.
+                            Vous pouvvez bien sûr avoir également accès aux corrections.
                         </p>
                     </div>
                 </div>

@@ -1,13 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
-/*   font-family: "Macondo", cursive; */
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-/*   font-family: "Varela Round", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+/*     font-family: "Black Ops One", system-ui; */
+@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+/*     font-family: "Quantico", sans-serif; */
 
 
-/* PAGE HOME */
+/* GENERAL*/
+
+
+.hidden {
+  display: none;
+}
+
+body > div.container4 > h3 {
+margin-top: 1rem;
+}
+
+.btn2 {
+  background-color: #726349;
+  font-family: "Varela Round", sans-serif;
+  padding: 0.2rem;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 5px;
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.btn2:hover {
+  background-color: #d5c1a1;
+}
 
 /* NAVBAR */
-
 
 .navbar .form-inline {
   display: flex;
@@ -30,41 +56,32 @@
 }
 
 .navbar {
-  background-color: #0B533D;
+  background-color: #928268;
 }
 
 #navbarsExample11>ul>li>a {
   color: white;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Quantico", sans-serif;
 }
 
 #navbarsExample11>ul>li.nav-item.dropdown>ul {
-  background-color: #0B533D;
+  background-color: #6b604e;
 }
 
 #navbarsExample11>ul>li>ul>li>a:hover {
-  background-color: #24916A;
+  background-color: #d5c1a1;
 }
 
 #navbarsExample11>ul>li.nav-item.dropdown>ul>li>a {
   color: white;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Quantico", sans-serif;
 }
 
 #navbarsExample11>a {
-  font-family: "Macondo", cursive;
+  font-family: "Black Ops One", system-ui;
   font-size: 2rem;
 }
 
-/* CORPS DE LA PAGE HOME */
-
-.hidden {
-  display: none;
-}
-
-body > div.container4 > h3 {
-margin-top: 1rem;
-}
 
 /* CARROUSEL ACCUEIL */
 
@@ -75,12 +92,13 @@ margin-top: 1rem;
 }
 
 h3 {
-  font-family: "Macondo", cursive;
+  font-family: "Black Ops One", system-ui;
   text-align: center;
+  color: #726349;
 }
 
 .carousel-text {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Quantico", sans-serif;
   text-align: justify;
   padding: 2rem;
 }
@@ -93,13 +111,13 @@ body>div.container.card-container>div {
   border-radius: 20px;
   width: 60rem;
   margin: 0 auto;
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
+  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
   /* ombrage card */
-  -webkit-box-shadow: 10px 15px 5px 3px #6eb59d;
-  -moz-box-shadow: 10px 15px 5px 3px #6eb59d;
+  -webkit-box-shadow: 10px 15px 5px 3px #6b604e;
+  -moz-box-shadow: 10px 15px 5px 3px #6b604e;
   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=10, OffY=15, Color='#6eb59d', Positive='true');
   zoom: 1;
-  box-shadow: 10px 15px 5px 3px #6eb59d;
+  box-shadow: 10px 15px 5px 3px #6b604e;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
@@ -107,7 +125,7 @@ body>div.container.card-container>div {
 
 /* contour carrousel */
 .outer-border {
-  border: 2px solid #239670;
+  border: 2px solid #6b604e;
   height: 99%;
   width: 98%;
   padding: 6px;
@@ -115,7 +133,7 @@ body>div.container.card-container>div {
 }
 
 .mid-border {
-  border: 6px solid #239670;
+  border: 6px solid #6b604e;
   height: 100%;
   width: 100%;
   padding: 6px;
@@ -124,7 +142,7 @@ body>div.container.card-container>div {
 
 .inner-border {
   position: relative;
-  border: 2px solid #24916A;
+  border: 2px solid #6b604e;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -132,92 +150,11 @@ body>div.container.card-container>div {
 
 
 
-
-
-/* PANIER */
-
-
-.product img {
-  width: 5rem;
-  height: auto;
-}
-
-.quantity-input {
-  width: 3.2rem;
-}
-
-.remove-btn {
-  font-family: "Varela Round", sans-serif;
-  padding: 0.2rem;
-  font-size: 0.8rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 5px;
-  background-color: rgb(185, 90, 90);
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.remove-btn:hover {
-  background-color: rgb(168, 109, 109);
-}
-
-
-.img-fluid {
-  max-width: 5rem;
-}
-
-#offcanvasExample {
-  background-color: #0B533D;
-}
-
-.btn2 {
-  background-color: #24916A;
-  font-family: "Varela Round", sans-serif;
-  padding: 0.2rem;
-  font-size: 1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 5px;
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.btn2:hover {
-  background-color: #57BC9A;
-}
-
-.pan {
-  font-family: "Varela Round", sans-serif;
-  text-align: center;
-  font-weight: bolder;
-}
-
-#cart {
-  overflow-y: auto;
-}
-
-#cart::-webkit-scrollbar {
-  width: 0.8rem;
-  background-color: #0B533D;
-  border: 2px solid #24916A;
-}
-
-#cart::-webkit-scrollbar-thumb {
-  background-color: #0B533D;
-}
-
-
 /* SCROLLBAR PERSONNALISEE */
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(74, 168, 85, 0.3);
-  background-color: #24916A;
-
+  background-color: rgb(136, 122, 101);
 }
 
 ::-webkit-scrollbar {
@@ -226,8 +163,8 @@ body>div.container.card-container>div {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background-color: #0B533D;
-  border: 2px solid #24916A;
+  background-color: #6b604e;
+  border: 2px solid #83745d;
 
   background-image: -webkit-linear-gradient(90deg,
       transparent,
@@ -284,13 +221,14 @@ body>div.container.card-container>div {
   width: 8rem;
   padding: 0.3rem 0.2rem;
   font-size: 0.8rem;
-  background-color: #0B533D;
+  background-color: #726349;
   color: #fff;
   border: none;
   border-radius: 5px;
   text-decoration: none;
   margin-bottom: 1rem;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -302,9 +240,9 @@ main {
 }
 
 footer {
-  background-color: #0B533D;
+  background-color: #928268;
   color: white;
-  font-family: "Macondo", cursive;
+  font-family: "Quantico", sans-serif;
   text-align: center;
 }
 
@@ -324,14 +262,14 @@ body>footer>footer>div.container>section>div>div>h6>a {
 
 body>footer>div>footer>div.text-center.p-3 {
   color: white;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Quantico", sans-serif;
 }
 
 .containerUsage {
   align-items: center;
   padding: 1rem 15rem 1rem 15rem;
   text-align: justify;
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
+  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
   width: 80rem;
   margin: 0 auto;
   margin-top: 1rem;
@@ -342,27 +280,25 @@ body>footer>div>footer>div.text-center.p-3 {
 }
 
 footer {
-  font-family: "Macondo", cursive;
+  font-family: "Quantico", sans-serif;
 }
 
-p {
-  font-family: "Varela Round", sans-serif;
-}
 
 /* CSS GENERALES DES PAGES */
 
 h1 {
-  font-family: "Macondo", cursive;
+  font-family: "Black Ops One", system-ui;
   text-align: center;
   margin-top: 1rem;
+  color: #6b604e;
 }
 
 p {
-  font-family: "Varela Round", sans-serif;
+  font-family: "Quantico", sans-serif;
 }
 
 
-/* PAGE PIERRES */
+/* PAGE COURS */
 
 .card {
   position: relative;
@@ -371,7 +307,7 @@ p {
   border-radius: 0.3rem;
   overflow: hidden;
   margin: 1.2rem;
-  background: linear-gradient(0deg, rgba(91, 189, 158, 1) 18%, rgba(34, 193, 195, 1) 100%);
+  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
@@ -385,491 +321,20 @@ p {
   border-radius: 0.3rem;
 }
 
-.btn-view-more {
-  position: absolute;
-  top: 90%;
-  left: 90%;
-  transform: translate(-50%, -50%);
-  background-color: #24916A;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 2.5rem;
-  height: 2.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.btn-view-more i {
-  font-size: 1.2rem;
-}
-
-.btn-view-more:hover {
-  background-color: #24916A;
-}
-
-.card-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  padding: 1rem;
-}
-
-.card h2 {
-  font-size: 1.2rem;
-  margin-bottom: 0.6rem;
-  font-family: "Macondo", cursive;
-  font-weight: bold;
-  text-align: center;
-}
-
-.card p {
-  margin-bottom: 0.3rem;
-}
-
-.btn-add-to-cart {
-  align-self: center;
-  margin-top: auto;
-  background-color: #24916A;
-  font-family: "Varela Round", sans-serif;
-  padding: 0.2rem;
-  font-size: 1rem;
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 5px;
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-}
-
-.btn-add-to-cart:hover {
-  background-color: #57BC9A;
-}
-
-.btn-add-to-cart i {
-  margin-right: 0.3rem;
-}
-
-
-
-/* PAGE SEEMORE */
-
-.btn-back {
-  width: max-content;
-  margin: 1rem;
-  background-color: #0B533D;
-  color: white;
-  font-family: "Varela Round", sans-serif;
-  border-radius: 5px;
-}
-
-.btn-back:hover {
-  background-color: #24916A;
-}
-
-.card2 {
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 9%, rgba(91, 189, 158, 1) 54%);
-  text-align: justify;
-  width: 70rem;
-  border: 1px solid #ccc;
-  border-radius: 0.3rem;
-  overflow: hidden;
-  margin: 1.2rem;
-  margin: 0 auto;
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 3rem;
-}
-
-.card2 h2 {
-  font-size: 2rem;
-  margin-bottom: 0.6rem;
-  font-family: "Macondo", cursive;
-}
-
-.card-image2 img {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-radius: 5px;
-}
-
-.nextPictures {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  width: 35%;
-}
-
-.card-image2 {
-  padding: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-body > div.card2 > div.card-details > p:nth-child(2) {
-  margin-top: 1rem;
-}
-
-body > div.card2 > div.card-details > p:nth-child(6) {
-  margin-top: 1rem;
-  font-weight: bold;
-}
-
-/* PAGE VALIDATION COMMANDE */
-
-.table-container {
-  max-width: 60rem;
-  margin: 0 auto;
-}
-
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-th,
-td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
-
-th {
-  font-family: "Macondo", cursive;
-  background-color: #0B533D;
-  color: white;
-}
-
-td {
-  background-color: #6eb59d;
-  font-family: "Varela Round", sans-serif;
-}
-
-body>table>tbody>tr:nth-child(4)>td:nth-child(1) {
-  font-family: "Macondo", cursive;
-  background-color: #239670;
-}
-
-.table-container img {
-  width: 5rem;
-  height: auto;
-}
-
-.table-container button {
-  background-color: #24916A;
-  color: white;
-}
-
-.table-container button:hover {
-  background-color: #24916A;
-}
-
-.table-container .fictive {
-  background-color: transparent;
-  border: none;
-}
-
-.table-container .fictive1 {
-  background-color: transparent;
-  border: none;
-}
-
-#validateOrderBtn {
-  margin-bottom: 1rem;
-}
-
-/* PAGE INSCRIPTION */
-
-#cgu {
-  border: solid 1px #239670;
-}
-
-h1 {
-  text-align: center;
-  color: #0B533D;
-  font-weight: bolder;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  margin-top: 1.5rem;
-}
-
-.valid-feedback,
-.invalid-feedback {
-  margin-left: 3rem;
-}
-
-.container form {
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-form {
-  height: 30rem;
-  padding: 20px;
-  background-color: transparent;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: auto;
-  color: #206D3C;
-  font-weight: bold;
-}
-
-label {
-  background-color: rgba(215, 197, 168, 0.5);
-  display: inline-block;
-  padding: 0.2em 0.5em;
-  font-family: "Varela Round", sans-serif;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="date"] {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="password"] {
-  width: 100%;
-  padding: 0.5rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.password-toggle-icon {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  cursor: pointer;
-  color: #206D3C;
-  z-index: 1;
-  font-size: 1.2rem;
-}
-
-.form-control[type="password"] {
-  width: 100%;
-}
-
-.form-check {
-  margin-bottom: 2rem;
-}
-
-.button {
-  padding: 10px 20px;
-  background-color: #206D3C;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  text-align: center;
-  margin-bottom: 3.5rem;
-  font-family: "Varela Round", sans-serif;
-}
-
-.button:hover {
-  background-color: #24916A;
-}
-
-
-.buttonRetourCo {
-  font-family: "Varela Round", sans-serif;
-  padding: 8px 12px;
-  font-size: 1rem;
-  text-decoration: none;
-  color: #0B533D;
-  text-align: center;
-  margin-bottom: 3.5rem;
-}
-
-.returnConnexion {
-  text-align: center;
-  font-weight: bold;
-}
-
-.returnCo {
-  color: black;
-}
-
-body>div>a {
-  background-color: #206D3C;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  text-decoration: none;
-  text-align: center;
-  font-family: "Varela Round", sans-serif;
-}
-
-/* Style des messages de validation */
-.valid-feedback {
-  color: #0B533D;
-  background-color: #D7C5A8;
-  font-size: 0.8rem;
-  width: 14rem;
-  display: none;
-}
-
-body>form>div.container5>div:nth-child(4) {
-  position: relative;
-}
-
-body>form>div.container5>div:nth-child(4)>label {
-  text-align: center;
-  width: 10rem;
-  margin-bottom: 0;
-  z-index: 1;
-}
-
-.invalid-feedback {
-  color: #dc3545;
-  background-color: #D7C5A8;
-  font-size: 0.8rem;
-  width: 18rem;
-  position: relative;
-  font-family: "Varela Round", sans-serif;
-}
-
-#passwordValidationFeedback {
-  color: #dc3545;
-  background-color: #D7C5A8;
-  font-size: 0.8rem;
-  width: 7rem;
-  position: relative;
-  font-family: "Varela Round", sans-serif;
-}
-
-.py-3 {
-  margin: 0 !important;
-}
-
-
-
-.requirements {
-  font-size: 0.8rem;
-  font-family: "Varela Round", sans-serif;
-}
-
-#password-input {
-  display: block;
-  margin-top: 1rem;
-}
-
-.container {
-  position: relative;
-}
-
-/* Style des messages d'alerte */
-.alert {
-  width: 100%;
-  margin-top: 10px;
-  display: block;
-}
-
-.alert ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.alert .requirements {
-  margin-bottom: 5px;
-  display: flex;
-  align-items: center;
-}
-
-.alert .requirements i {
-  margin-right: 5px;
-}
-
-.alert .requirements .text-success {
-  display: inline-block;
-}
-
-/* PAGE INSCRIPTION REUSSIE */
-
-body>div>h2 {
-  margin-bottom: 2rem;
-  color: #0B533D;
-  font-family: "Macondo", cursive;
-}
-
-body>div>p>strong>em {
-  color: #0B533D;
-  font-family: "Varela Round", sans-serif;
-}
-
-/* PAGE CONNEXION */
-
-
-.recaptchas {
-  color: red;
-  font-family: "Varela Round", sans-serif;
-}
-
-body>div.container2>form>div:nth-child(3)>div>div>div>iframe {
-  width: 18.2rem;
-}
-
-body>div.container2>form>div:nth-child(3)>div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
-}
-
-.pushbottom {
-  margin-top: 8rem;
-}
-
-p {
-  color: black;
-  font-family: "Varela Round", sans-serif;
-  font-size: 1rem;
-  margin-bottom: 0;
-}
 
 body>div>form>div:nth-child(4)>a {
   text-decoration: none;
-  color: #0B533D;
-  font-family: "Varela Round", sans-serif;
+  color: #83745d;
+  font-family: "Quantico", sans-serif;
 }
 
-.conditionPassword {
-  background-color: rgba(215, 197, 168, 0.7);
-  border-radius: 5px;
-}
 
-#submitButton {
-  margin-top: 1rem;
-}
 
 body>h2 {
-  font-family: "Macondo", cursive;
+  font-family: "Black Ops One", system-ui;
   margin-top: 4rem;
   margin-bottom: 4rem;
-  color: #239670;
+  color: #83745d;
   text-align: center;
 }
 
@@ -884,123 +349,6 @@ body>div>form>div:nth-child(3) {
   flex-direction: column;
 }
 
-.container2 form {
-  position: relative;
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
-}
-
-.container2 form::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url(../img/formConnexion.jpg) no-repeat center center / cover;
-  border-radius: 7px;
-  z-index: -1;
-}
-
-/* PAGE PROFIL */
-
-/* pop-up confirmation suppresion profil */
-
-/* Style du pop-up de confirmation suppression du profil */
-#deleteProfileConfirm {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  /* Fond semi-transparent */
-  z-index: 1000;
-  /* Assure que le pop-up est au-dessus de tout le reste */
-}
-
-.popup-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px;
-  background-color: #0B533D;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#deleteProfileText {
-  color: white;
-}
-
-#deleteProfileForm {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-  background-color: #0B533D;
-
-}
-
-.btnYes,
-.btnNo {
-  background-color: #239670;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.btnYes:hover {
-  background-color: #8AA03E;
-}
-
-.btnNo:hover {
-  background-color: red;
-
-}
-
-/* css profil */
-
-.tittleProfil {
-  color: #0B533D;
-  font-family: "Macondo", cursive;
-  text-align: center;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.deleteProfil {
-  background-color: transparent;
-  width: 8rem;
-  height: 2rem;
-  padding: 0;
-  margin: 0;
-}
-
-
-.delete_profile {
-  width: 8rem;
-  padding: 0.3rem 0.2rem;
-  font-size: 0.8rem;
-  background-color: #0B533D;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.delete_profile:hover {
-  background-color: #24916A;
-}
-
-.error-message {
-  color: red;
-}
 
 .buttonHome2 {
   color: white;
@@ -1014,186 +362,18 @@ body>div>form>div:nth-child(3) {
   height: 2rem;
   align-items: center;
   padding: 0.2rem 0.5rem;
-  background-color: #0B533D;
+  background-color: #453929;
 }
 
 .buttonHome2:hover {
-  background-color: #24916A;
+  background-color: #83745d;
 }
 
 body.page-profil {
   overflow-y: auto;
 }
 
-.container3 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 4rem 0.4rem 4rem 0.4rem;
-  margin-top: 1.5rem;
-  position: relative;
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
-}
 
-
-#editDescriptionForm {
-  width: 70rem;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 4rem 0.4rem 4rem 0.4rem;
-  margin-top: 1.5rem;
-  position: relative;
-  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 14%, rgba(91, 189, 158, 1) 60%);
-}
-
-
-.styleProfil {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #0B533D;
-  text-decoration: underline;
-}
-
-p {
-  color: black;
-  font-weight:normal;
-  font-size: 1rem;
-}
-
-body>div.container3>div.profile-image-container>form {
-  height: 5rem;
-  width: 20rem;
-  background-color: transparent;
-  margin-right: 5rem;
-}
-
-.profile-image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile-image {
-  max-width: 10rem;
-  max-height: 10rem;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-  margin-left: 8rem;
-  border: solid 2px #0B533D;
-}
-
-.file-label {
-  background-color: white;
-}
-
-.file-input-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.file-input-container label {
-  margin-bottom: 5px;
-}
-
-.file-input-text {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.5rem;
-  flex-grow: 1;
-  width: 10rem;
-}
-
-.file-input-container {
-  display: flex;
-  align-items: center;
-  width: 30%;
-}
-
-.file-input {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 0.5rem;
-  width: calc(100% - 80px);
-  margin-right: 10px;
-}
-
-.file-input-button,
-.file-input-container input[type="submit"] {
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  margin-right: 1rem;
-  background-color: #0B533D;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.file-input-container input[type="submit"]:hover {
-  background-color: #24916A;
-  ;
-}
-
-#descriptionDisplay {
-  margin-bottom: 1rem;
-}
-
-#editDescriptionForm {
-  margin: 0 auto;
-  padding: 2rem 0.2rem 4.2rem 0.2rem;
-}
-
-.contnair {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#editDescriptionBtn {
-  width: 8rem;
-  padding: 0.3rem 0.2rem;
-  font-size: 0.8rem;
-  background-color: #0B533D;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-#editDescriptionBtn:hover {
-  background-color: #24916A;
-}
-
-
-/* PAGE COMMANDE VALIDE */
-.containerUsage {
-  text-align: center; 
-  margin-bottom: 1rem;
-}
-
-.returnHome {
-  text-align: center;
-  width: 8rem;
-  padding: 0.3rem 0.2rem;
-  font-size: 0.8rem;
-  background-color: #0B533D;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-bottom: 1rem;
-}
-
-/* Empêcher le bouton de s'étendre sur toute la largeur */
-.buttonContainer {
-  display: inline-block;
-}
-
-/* PAGE HISTORIQUE COMMANDE */
-
-body > div.table-container > table {
-  margin-bottom: 1rem;
-}
 
 /* RESPONSIVE */
 
