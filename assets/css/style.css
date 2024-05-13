@@ -1,19 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
 /*     font-family: "Black Ops One", system-ui; */
-@import url('https://fonts.googleapis.com/css2?family=Quantico&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 /*     font-family: "Quantico", sans-serif; */
 
-
 /* GENERAL*/
-
-
-.hidden {
-  display: none;
-}
-
-body > div.container4 > h3 {
-margin-top: 1rem;
-}
 
 .btn2 {
   background-color: #726349;
@@ -24,8 +14,7 @@ margin-top: 1rem;
   color: white;
   text-shadow: 1px 1px 1px #000;
   border-radius: 5px;
-  box-shadow:
-    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -35,53 +24,55 @@ margin-top: 1rem;
 
 /* NAVBAR */
 
+
+#search-input {
+  width: 15rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-right: 0.2rem;
+}
+
+#search-btn {
+  margin: 0.2rem;
+}
+
 .navbar .form-inline {
   display: flex;
   align-items: center;
-  margin-top: 0.5rem; 
+  margin-top: 0.5rem;
 }
 
 .navbar .navbar-nav {
   flex-grow: 1; /* les éléments prennent autant d'espace possible dans la navbar */
 }
 
-.navbar .form-inline {
-  flex-grow: 0; 
-  margin-left: auto; /* aligner le formulaire à droite */
-  padding: 1rem;
-}
-
-#top > nav > form > button {
-  margin-right: 0.5rem;
-}
-
 .navbar {
   background-color: #928268;
 }
 
-#navbarsExample11>ul>li>a {
+#navbarsExample11 > ul > li > a {
   color: white;
   font-family: "Quantico", sans-serif;
 }
 
-#navbarsExample11>ul>li.nav-item.dropdown>ul {
+#navbarsExample11 > ul > li.nav-item.dropdown > ul {
   background-color: #6b604e;
 }
 
-#navbarsExample11>ul>li>ul>li>a:hover {
+#navbarsExample11 > ul > li > ul > li > a:hover {
   background-color: #d5c1a1;
 }
 
-#navbarsExample11>ul>li.nav-item.dropdown>ul>li>a {
+#navbarsExample11 > ul > li.nav-item.dropdown > ul > li > a {
   color: white;
   font-family: "Quantico", sans-serif;
 }
 
-#navbarsExample11>a {
+#navbarsExample11 > a {
   font-family: "Black Ops One", system-ui;
   font-size: 2rem;
+  margin-left: 1rem;
 }
-
 
 /* CARROUSEL ACCUEIL */
 
@@ -107,11 +98,16 @@ h3 {
   margin-bottom: 4rem;
 }
 
-body>div.container.card-container>div {
+body > div.container.card-container > div {
   border-radius: 20px;
   width: 60rem;
   margin: 0 auto;
-  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
+  background: linear-gradient(
+    0deg,
+    rgba(213, 193, 161, 1) 18%,
+    rgba(179, 160, 129, 1) 39%,
+    rgba(146, 130, 104, 1) 73%
+  );
   /* ombrage card */
   -webkit-box-shadow: 10px 15px 5px 3px #6b604e;
   -moz-box-shadow: 10px 15px 5px 3px #6b604e;
@@ -148,8 +144,6 @@ body>div.container.card-container>div {
   margin: auto;
 }
 
-
-
 /* SCROLLBAR PERSONNALISEE */
 
 ::-webkit-scrollbar-track {
@@ -166,11 +160,13 @@ body>div.container.card-container>div {
   background-color: #6b604e;
   border: 2px solid #83745d;
 
-  background-image: -webkit-linear-gradient(90deg,
-      transparent,
-      rgba(94, 92, 92, 0.4) 70%,
-      transparent,
-      transparent)
+  background-image: -webkit-linear-gradient(
+    90deg,
+    transparent,
+    rgba(94, 92, 92, 0.4) 70%,
+    transparent,
+    transparent
+  );
 }
 
 /* PAGE RECHERCHE */
@@ -184,7 +180,7 @@ body>div.container.card-container>div {
 #search-results .row {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;;
+  justify-content: center;
 }
 
 /* Pour que les cartes utilisent tout l'espace disponible */
@@ -198,7 +194,12 @@ body>div.container.card-container>div {
 }
 
 /* Ajuster la taille de l'image lorsque la carte est de 50rem de large */
-#search-results .row .col-4:first-child:nth-last-child(1) .result-card .card-image img {
+#search-results
+  .row
+  .col-4:first-child:nth-last-child(1)
+  .result-card
+  .card-image
+  img {
   max-width: 20rem;
 }
 
@@ -232,11 +233,11 @@ body>div.container.card-container>div {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 main {
-  flex-grow: 1; 
+  flex-grow: 1;
 }
 
 footer {
@@ -246,7 +247,7 @@ footer {
   text-align: center;
 }
 
-body>footer>footer>div.container>section>div>div>h6>a {
+body > footer > footer > div.container > section > div > div > h6 > a {
   text-decoration: none;
 }
 
@@ -260,7 +261,7 @@ body>footer>footer>div.container>section>div>div>h6>a {
   padding-right: 0;
 }
 
-body>footer>div>footer>div.text-center.p-3 {
+body > footer > div > footer > div.text-center.p-3 {
   color: white;
   font-family: "Quantico", sans-serif;
 }
@@ -269,7 +270,12 @@ body>footer>div>footer>div.text-center.p-3 {
   align-items: center;
   padding: 1rem 15rem 1rem 15rem;
   text-align: justify;
-  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
+  background: linear-gradient(
+    0deg,
+    rgba(213, 193, 161, 1) 18%,
+    rgba(179, 160, 129, 1) 39%,
+    rgba(146, 130, 104, 1) 73%
+  );
   width: 80rem;
   margin: 0 auto;
   margin-top: 1rem;
@@ -282,7 +288,6 @@ body>footer>div>footer>div.text-center.p-3 {
 footer {
   font-family: "Quantico", sans-serif;
 }
-
 
 /* CSS GENERALES DES PAGES */
 
@@ -297,7 +302,6 @@ p {
   font-family: "Quantico", sans-serif;
 }
 
-
 /* PAGE COURS */
 
 .card {
@@ -307,7 +311,12 @@ p {
   border-radius: 0.3rem;
   overflow: hidden;
   margin: 1.2rem;
-  background: linear-gradient(0deg, rgba(213,193,161,1) 18%, rgba(179,160,129,1) 39%, rgba(146,130,104,1) 73%);
+  background: linear-gradient(
+    0deg,
+    rgba(213, 193, 161, 1) 18%,
+    rgba(179, 160, 129, 1) 39%,
+    rgba(146, 130, 104, 1) 73%
+  );
   box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
@@ -321,16 +330,13 @@ p {
   border-radius: 0.3rem;
 }
 
-
-body>div>form>div:nth-child(4)>a {
+body > div > form > div:nth-child(4) > a {
   text-decoration: none;
   color: #83745d;
   font-family: "Quantico", sans-serif;
 }
 
-
-
-body>h2 {
+body > h2 {
   font-family: "Black Ops One", system-ui;
   margin-top: 4rem;
   margin-bottom: 4rem;
@@ -338,7 +344,7 @@ body>h2 {
   text-align: center;
 }
 
-body>div>form>div:nth-child(3) {
+body > div > form > div:nth-child(3) {
   height: 5rem;
 }
 
@@ -348,7 +354,6 @@ body>div>form>div:nth-child(3) {
   align-items: center;
   flex-direction: column;
 }
-
 
 .buttonHome2 {
   color: white;
@@ -373,78 +378,75 @@ body.page-profil {
   overflow-y: auto;
 }
 
-
-
 /* RESPONSIVE */
-
 
 @media (max-width: 768px) {
   .carousel-text {
     text-align: left;
   }
   .carousel-item img {
-    width: 15rem; 
+    width: 15rem;
   }
   #editDescriptionForm {
     width: 100%;
   }
-  body>div.container.card-container>div {
-    width: 100%; 
+  body > div.container.card-container > div {
+    width: 100%;
   }
   .card2 {
-    flex-direction: column; 
-    width: 90%; 
+    flex-direction: column;
+    width: 90%;
   }
   .nextPictures {
-    width: 100%; 
-    margin-top: 1rem; 
+    width: 100%;
+    margin-top: 1rem;
   }
   .table-container {
-    max-width: 100%; 
-    padding: 0 1rem; 
+    max-width: 100%;
+    padding: 0 1rem;
   }
   .popup-content {
-    width: 80%; 
+    width: 80%;
   }
   .containerUsage {
-    max-width: 90%; 
+    max-width: 90%;
   }
 }
 
 @media (max-width: 576px) {
   .carousel-item img {
-    width: 10rem; 
+    width: 10rem;
   }
-  body>div.container.card-container>div {
-    width: 90%; 
+  body > div.container.card-container > div {
+    width: 90%;
   }
   .card2 {
-    width: 100%; 
+    width: 100%;
   }
   th,
   td {
-    font-size: 0.8rem; 
-    padding: 0.4rem; 
+    font-size: 0.8rem;
+    padding: 0.4rem;
   }
 
   .table-container img {
-    width: 3rem; 
+    width: 3rem;
   }
   .popup-content {
-    width: 90%; 
+    width: 90%;
   }
 
   .btnYes,
   .btnNo {
-    padding: 8px 16px; 
+    padding: 8px 16px;
   }
   .containerUsage {
-    padding: 0.5rem; 
+    padding: 0.5rem;
   }
 }
 
 @media (max-width: 1024px) {
   .containerUsage {
-    padding: 1rem; 
+    padding: 1rem;
   }
 }
