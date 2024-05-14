@@ -24,6 +24,9 @@
 
 /* NAVBAR */
 
+.form-inline {
+  background-color: #d5c1a1;
+}
 
 #search-input {
   width: 15rem;

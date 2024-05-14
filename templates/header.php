@@ -1,6 +1,6 @@
 <!-- NAV BAR -->
 <!-- Formulaire de recherche -->
-<form id="search-form" class="form-inline d-flex justify-content-end" style="background-color: rgba(0, 0, 0, 0.2)" action="/controllers/controller-search.php" method="GET">
+<form id="search-form" class="form-inline d-flex justify-content-end" action="/controllers/controller-search.php" method="GET">
     <input id="search-input" name="search" class="form-control" type="search" placeholder="Rechercher" aria-label="Search">
     <button id="search-btn" class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
 </form>

@@ -62,14 +62,19 @@
                     </div>
 
                     <div class="text carousel-text">
-                        <p>Vous souhaitez apprendre à utiliser un ordinateur? Ou simplement vous perfectionner en traitement de texte ou en tableur?
-                            Vous ne connaissez pas les différents modes de stockages?
+                        <p>Vous souhaitez apprendre à utiliser un ordinateur ou approfondir vos connaissances?  </p>
+                        <p>Vous souhaitez pouvoir réaliser des courriers, des curriculum-vitea, des tableaux, ou simplement faire du traitement de texte ou utiliser un logiciel de tableur?</p>
+
+                        <p>  Vous ne connaissez pas les différents modes de stockages?
                         </p>
+                        <p>
+                            Le web est un monde trop vaste pour vous, vous ne savez pas comment vous y retrouver dessus, effectuer des recherches sans prendre de risque?
+                            Vous voulez apprendre à envoyer des emails?
+                        </p>
+
                         <p>
                             Alors bienvenue sur mon site consacré au numérique.
-                        </p>
-                        <p>
-                            Vous y trouverez des cours, des fiches détaillées.
+                            Vous y trouverez des fiches détaillées que ce soit pour apprendre les touches classiques du clavier, apprendre à créer des dossiers ou apprendre à faire vos comptes sur un tableur.
                         </p>
                         <p>
                             Un onglet est également consacré à des exercices que j'ai réalisé pour que vous puissiez tester votre apprentissage, savoir où vous en êtes.
