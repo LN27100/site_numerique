@@ -6,12 +6,10 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config.php';
-require_once '../models/Stones.php'; 
-
-$bijouxStones = Stones::getCategoriesBijoux();
 
 
-include_once '../views/view-bijoux.php';
+
+include_once '../views/ordinateur/view-keyboard.php';
 
 
 ?>

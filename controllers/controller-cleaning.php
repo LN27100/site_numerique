@@ -6,9 +6,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 require_once '../config.php';
-require_once '../models/Stones.php'; 
 
-$blueStones = Stones::getBlueStones(); 
 
-include_once '../views/view-blue.php';
+include_once '../views/ordinateur/view-cleaning.php';
 ?>

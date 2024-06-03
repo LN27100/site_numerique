@@ -20,10 +20,10 @@
                         Manipuler l'ordinateur
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-roulees.php">Démarrage / Arrêt</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-brutes.php">Clavier</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-spheres.php">Souris</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-pointes.php">Entretien</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-startEnd.php">Démarrage / Arrêt</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-keyboard.php">Clavier</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-mouse.php">Souris</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-cleaning.php">Entretien</a></li>
                     </ul>
                 </li>
 
@@ -32,9 +32,9 @@
                         Initiation aux logiciels bureautique
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-blue.php" data-categoryId="1">Traitement de texte</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-green.php" data-categoryId="2">Tableur</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-purple.php" data-categoryId="3">Logiciel de présentation</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-word.php" data-categoryId="1">Traitement de texte</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-spreadsheet.php" data-categoryId="2">Tableur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-presentation.php" data-categoryId="3">Logiciel de présentation</a></li>
 
                     </ul>
                 </li>
@@ -45,10 +45,10 @@
                         Initiation au web
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-blue.php" data-categoryId="1">Moteurs de recherche</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-green.php" data-categoryId="2">Boite mail</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-purple.php" data-categoryId="3">Réseaux sociaux</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-white.php" data-categoryId="3">Protéger ses donnéess</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-search.php" data-categoryId="1">Moteurs de recherche</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-mailbox.php" data-categoryId="2">Boite mail</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-socialNetwork.php" data-categoryId="3">Réseaux sociaux</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-dataProtection.php" data-categoryId="3">Protéger ses donnéess</a></li>
                     </ul>
                 </li>
 
@@ -57,10 +57,10 @@
                         Découvrir les modes de stockage
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-roulees.php">Disque dur</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-brutes.php">Clé usb</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-spheres.php">Cloud</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-pointes.php">Cartes SD</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-hardDrive.php">Disque dur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-usbKey.php">Clé usb</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-cloud.php">Cloud</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-sdCard.php">Cartes SD</a></li>
                     </ul>
                 </li>
 
@@ -69,13 +69,13 @@
                         Exercices
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-roulees.php">Ordinateur</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-brutes.php">Traitement de texte</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-spheres.php">Tableur</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-pointes.php">Logiciels de présentation</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-bijoux.php">Stockages</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-geodes.php">Navigation Web</a></li>
-                        <li><a class="dropdown-item" href="/controllers/controller-geodes.php">Boite mail</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-computerExercicse.php">Ordinateur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-wordProcessingExercise.php">Traitement de texte</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-sheetExercise.php">Tableur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-presentationExercise.php">Logiciels de présentation</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-storageExercise.php">Stockages</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-webExercise.php">Navigation Web</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-mailboxExercise.php">Boite mail</a></li>
 
                     </ul>
                 </li>
