@@ -45,7 +45,7 @@
                         Initiation au web
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-search.php" data-categoryId="1">Moteurs de recherche</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-browser.php" data-categoryId="1">Moteurs de recherche</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-mailbox.php" data-categoryId="2">Boite mail</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-socialNetwork.php" data-categoryId="3">Réseaux sociaux</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-dataProtection.php" data-categoryId="3">Protéger ses donnéess</a></li>

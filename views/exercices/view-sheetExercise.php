@@ -20,7 +20,6 @@
     </header>
 
 
-    <a class= "returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
 
         <h1 >Exercices sur les tableurs</h1>
 

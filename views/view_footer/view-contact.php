@@ -23,7 +23,7 @@
     <a class= "returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
 
     <div class="containerUsage">
-        <h1 class="tittleUsage">Contact</h1>
+        <h1 class="specialColor">Contact</h1>
 
     </div>
 

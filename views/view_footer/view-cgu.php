@@ -24,7 +24,7 @@
 
     <div class="containerUsage">
 
-    <h1>Conditions générales d'utilisation</h1>
+    <h1 class="specialColor">Conditions générales d'utilisation</h1>
 
   
     </div>

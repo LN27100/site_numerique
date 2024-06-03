@@ -19,7 +19,7 @@
 
 
 
-    <h1>Les moteurs de recherches</h1>
+    <h1>Résultat de la recherche</h1>
 
 
     <div class="container">

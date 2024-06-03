@@ -3,7 +3,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 /*     font-family: "Quantico", sans-serif; */
 
-/* GENERAL*/
+/* CSS GENERALES DES PAGES */
+
+h1 {
+  font-family: "Black Ops One", system-ui;
+  text-align: center;
+  margin-top: 1rem;
+  color: #4e4538;
+}
+
+p {
+  font-family: "Quantico", sans-serif;
+}
+
+h2 {
+  background-color: #928268;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Black Ops One", system-ui;
+  text-align: center;
+  color: #5d3a1a;
+}
+
+.anim {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 .btn2 {
   background-color: #726349;
@@ -83,12 +122,6 @@
   width: 20rem;
   display: block;
   margin: auto;
-}
-
-h3 {
-  font-family: "Black Ops One", system-ui;
-  text-align: center;
-  color: #726349;
 }
 
 .carousel-text {
@@ -218,6 +251,10 @@ body > div.container.card-container > div {
 
 /* FOOTER */
 
+.specialColor {
+  color: #5d3a1a;
+}
+
 .returnHomeFooter {
   margin-top: 1rem;
   margin-left: 1rem;
@@ -284,24 +321,8 @@ body > footer > div > footer > div.text-center.p-3 {
   margin-top: 1rem;
 }
 
-.tittleUsage {
-  text-align: center;
-}
 
 footer {
-  font-family: "Quantico", sans-serif;
-}
-
-/* CSS GENERALES DES PAGES */
-
-h1 {
-  font-family: "Black Ops One", system-ui;
-  text-align: center;
-  margin-top: 1rem;
-  color: #6b604e;
-}
-
-p {
   font-family: "Quantico", sans-serif;
 }
 

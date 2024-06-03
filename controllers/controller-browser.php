@@ -9,7 +9,7 @@ if (session_status() === PHP_SESSION_NONE) {
 require_once '../config.php';
 
 
-include_once '../views/view-search.php';
+include_once '../views/InitiationWeb/view-browser.php';
 ?>
 
 
