@@ -69,7 +69,7 @@
                         Exercices
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/controllers/controller-computerExercicse.php">Ordinateur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-computerExercise.php">Ordinateur</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-wordProcessingExercise.php">Traitement de texte</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-sheetExercise.php">Tableur</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-presentationExercise.php">Logiciels de présentation</a></li>
