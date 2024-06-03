@@ -12,7 +12,7 @@ h1 {
   color: #4e4538;
 }
 
-p {
+p, ul, li, ol {
   font-family: "Quantico", sans-serif;
 }
 
