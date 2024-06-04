@@ -53,13 +53,6 @@
                 <li>Confirmer l'arrêt : Si une fenêtre de confirmation apparaît, cliquez sur "Oui" ou "Confirmer".</li>
             </ol>
 
-            <!-- Téléchargement pdf -->
-            <?php if ($pdf) : ?>
-                <p>Nom du fichier : <?= htmlspecialchars($pdf['nom_fichier']) ?></p>
-                <p><a href="<?= htmlspecialchars($pdf['chemin_fichier']) ?>" download>Télécharger le fichier</a></p>
-            <?php else : ?>
-                <p>Le fichier PDF n'a pas été trouvé.</p>
-            <?php endif; ?>
 
         </div>
     </div>

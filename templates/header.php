@@ -11,6 +11,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse d-lg-flex " id="navbarsExample11">
             <a class="navbar-brand text-light" href="/controllers/controller-home.php">LE NUMERIQUE</a>
 
@@ -29,7 +30,7 @@
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Initiation aux logiciels bureautique
+                        Initiation bureautique
                     </a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="/controllers/controller-word.php" data-categoryId="1">Traitement de texte</a></li>
@@ -76,6 +77,21 @@
                         <li><a class="dropdown-item" href="/controllers/controller-storageExercise.php">Stockages</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-webExercise.php">Navigation Web</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-mailboxExercise.php">Boite mail</a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PDF à télécharger
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfComputer.php">Ordinateur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfWord.php">Traitement de texte</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfSheet.php">Tableur</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfPresentation.php">Logiciels de présentation</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfStorage.php">Stockages</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-pdfWeb.php">Web</a></li>
 
                     </ul>
                 </li>
