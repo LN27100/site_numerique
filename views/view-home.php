@@ -74,12 +74,14 @@
 
                         <p>
                             Alors bienvenue sur mon site consacré au numérique.
-                            Vous y trouverez des fiches détaillées que ce soit pour apprendre les touches classiques du clavier, apprendre à créer des dossiers ou apprendre à faire vos comptes sur un tableur.
+                            Vous y trouverez des cours détaillés que ce soit pour apprendre les touches classiques du clavier, apprendre à créer des dossiers ou apprendre à faire vos comptes sur un tableur.
                         </p>
                         <p>
                             Un onglet est également consacré à des exercices que j'ai réalisé pour que vous puissiez tester votre apprentissage, savoir où vous en êtes.
                             Vous pouvvez bien sûr avoir également accès aux corrections.
                         </p>
+
+                        <p>J'ai créé différents fichiers PDF illustrés que je mets à votre disposition pour chaque catégorie afin que chacun puisse évoluer selon ses besoins.</p>
                     </div>
                 </div>
             </div>
