@@ -26,13 +26,32 @@
         <div class="row">
         
 
-            <!-- Téléchargement pdf -->
-            <?php if ($pdf) : ?>
-                <p>Nom du fichier : <?= htmlspecialchars($pdf['nom_fichier']) ?></p>
-                <p><a href="<?= htmlspecialchars($pdf['chemin_fichier']) ?>" download>Télécharger le fichier</a></p>
-            <?php else : ?>
-                <p>Le fichier PDF n'a pas été trouvé.</p>
-            <?php endif; ?>
+            <!-- Liste des pdf à télécharger -->
+            <?php if (count($pdfs) > 0): ?>
+    <ul>
+        <?php
+        $uploadDir = '../assets/pdf/tableur/'; 
+
+        foreach ($pdfs as $pdf): ?>
+            <li>
+                <?php
+                // Générer le chemin complet du fichier
+                $fichierComplet = $uploadDir . $pdf['nom_fichier'];
+
+                if (file_exists($fichierComplet)) {
+                    echo '<a href="' . $fichierComplet . '" target="_blank">';
+                } else {
+                    echo '<span class="text-muted">Fichier indisponible</span>';
+                }
+                echo $pdf['nom_fichier'];
+                echo '</a>';
+                ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+    <p>Aucun fichier PDF trouvé.</p>
+<?php endif; ?>
 
         </div>
     </div>

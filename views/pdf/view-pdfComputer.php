@@ -25,7 +25,6 @@
     <div class="container">
         <div class="row">
         
-
             <!-- Liste des pdf à télécharger -->
             <?php if (count($pdfs) > 0): ?>
     <ul>
@@ -39,7 +38,7 @@
                 $fichierComplet = $uploadDir . $pdf['nom_fichier'];
 
                 if (file_exists($fichierComplet)) {
-                    echo '<a href="' . $fichierComplet . '">';
+                    echo '<a href="' . $fichierComplet . '" target="_blank">';
                 } else {
                     echo '<span class="text-muted">Fichier indisponible</span>';
                 }

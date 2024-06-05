@@ -35,37 +35,39 @@ class Pdf
     }
 
     /**
-     * Méthode permettant de récupérer un fichier PDF par son ID
+     * Méthode permettant de récupérer plusieurs fichiers PDF par leurs ID
      * 
-     * @param int $id
+     * @param array $ids
      * @return array
      */
     public static function getByIds(array $ids): array
-{
-    try {
-        // Création d'un objet $pdo selon la classe PDO
-        $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASSWORD);
-        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    {
+        try {
+            // Création d'un objet $pdo selon la classe PDO
+            $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASSWORD);
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // Préparation de la requête avec des marqueurs nominatifs pour plusieurs ID
-        $sql = "SELECT * FROM `fichiers_pdf` WHERE `id` IN (:ids)";
-        $query = $pdo->prepare($sql);
+            // Préparation de la requête avec des marqueurs nominatifs pour plusieurs ID
+            $inQuery = implode(',', array_fill(0, count($ids), '?'));
+            $sql = "SELECT * FROM `fichiers_pdf` WHERE `id` IN ($inQuery)";
+            $query = $pdo->prepare($sql);
 
-        // Conversion des ID en chaîne séparée par des virgules pour le marqueur nominatif
-        $idsString = implode(', ', $ids);
-        $query->bindValue(':ids', $idsString, PDO::PARAM_STR);
+            // Liaison des valeurs des paramètres
+            foreach ($ids as $k => $id) {
+                $query->bindValue(($k + 1), $id, PDO::PARAM_INT);
+            }
 
-        // Exécution de la requête
-        $query->execute();
+            // Exécution de la requête
+            $query->execute();
 
-        // Récupération des résultats dans un tableau
-        $result = $query->fetchAll(PDO::FETCH_ASSOC);
+            // Récupération des résultats dans un tableau
+            $result = $query->fetchAll(PDO::FETCH_ASSOC);
 
-        // Retour du résultat
-        return $result ?? [];
-    } catch (PDOException $e) {
-        echo 'Erreur : ' . $e->getMessage();
-        die();
+            // Retour du résultat
+            return $result ?? [];
+        } catch (PDOException $e) {
+            echo 'Erreur : ' . $e->getMessage();
+            die();
+        }
     }
-}
 }
