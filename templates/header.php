@@ -77,6 +77,7 @@
                         <li><a class="dropdown-item" href="/controllers/controller-storageExercise.php">Stockages</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-webExercise.php">Navigation Web</a></li>
                         <li><a class="dropdown-item" href="/controllers/controller-mailboxExercise.php">Boite mail</a></li>
+                        <li><a class="dropdown-item" href="/controllers/controller-solutions.php">Corrigés</a></li>
 
                     </ul>
                 </li>
