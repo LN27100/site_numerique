@@ -20,8 +20,9 @@
 
     <main>
 
-        <a class="returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
-
+    <div class="returnButton">
+            <a class="returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
+        </div>
         <div class="containerUsage">
             <h1 class="specialColor">A propos de moi</h1>
             <p>Bénévole au sein d'une association de quartier en 2023 comme formatrice numérique, j'ai créé des cours adaptés à chaque public et chaque besoin.</p>

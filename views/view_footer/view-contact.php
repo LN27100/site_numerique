@@ -20,7 +20,9 @@
 
     <main>
 
-        <a class="returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
+        <div class="returnButton">
+            <a class="returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
+        </div>
 
         <div class="containerUsage">
             <h1 class="specialColor">Contact</h1>
