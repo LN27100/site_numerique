@@ -21,11 +21,13 @@
 
    
 <h1>Exercices sur les différents types de stockages</h1>
-    <div class="container">
-        
-       
-
+    
+<div class="container">
+        <div class="row">
+        <h3>A VENIR</h3>
+        </div>
     </div>
+
 
     <footer>
         <?php include '../templates/footer.php'; ?>

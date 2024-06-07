@@ -26,7 +26,38 @@
 
 
 
+        <div class="container">
+        <div class="row">
+        
+            <!-- Liste des pdf à télécharger -->
+            <?php if (count($pdfs) > 0): ?>
+    <ul>
+        <?php
+        $uploadDir = '../assets/pdf/exercices/tableur/'; 
 
+        foreach ($pdfs as $pdf): ?>
+            <li>
+                <?php
+                // Générer le chemin complet du fichier
+                $fichierComplet = $uploadDir . $pdf['nom_fichier'];
+
+                if (file_exists($fichierComplet)) {
+                    echo '<a href="' . $fichierComplet . '" target="_blank">';
+                } else {
+                    echo '<span class="text-muted">Fichier indisponible</span>';
+                }
+                echo $pdf['nom_fichier'];
+                echo '</a>';
+                ?>
+            </li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+    <p>Aucun fichier PDF trouvé.</p>
+<?php endif; ?>
+
+        </div>
+    </div>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
