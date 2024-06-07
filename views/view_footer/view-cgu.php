@@ -17,7 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-
+    <main>
 
     <a class= "returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
 
@@ -26,8 +26,9 @@
 
     <h1 class="specialColor">Conditions générales d'utilisation</h1>
 
-  
     </div>
+
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

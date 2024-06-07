@@ -17,6 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
 
 
     <h1>Liste des pdf sur les logiciels de présentation</h1>
@@ -30,7 +31,7 @@
         
         </div>
     </div>
-
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

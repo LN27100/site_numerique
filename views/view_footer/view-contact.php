@@ -18,15 +18,15 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-   
+    <main>
 
-    <a class= "returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
+        <a class="returnHomeFooter" href="../controllers/controller-home.php">Retour</a>
 
-    <div class="containerUsage">
-        <h1 class="specialColor">Contact</h1>
+        <div class="containerUsage">
+            <h1 class="specialColor">Contact</h1>
 
-    </div>
-
+        </div>
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
@@ -34,7 +34,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
-    
+
 </body>
 
 </html>

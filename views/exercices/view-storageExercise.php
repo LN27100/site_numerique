@@ -19,14 +19,18 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-   
-<h1>Exercices sur les différents types de stockages</h1>
-    
-<div class="container">
-        <div class="row">
-        <h3>A VENIR</h3>
+    <main>
+
+
+        <h1>Exercices sur les différents types de stockages</h1>
+
+        <div class="container">
+            <div class="row">
+                <h3>A VENIR</h3>
+            </div>
         </div>
-    </div>
+
+    </main>
 
 
     <footer>
@@ -128,14 +132,14 @@
             const prenomFeedback = document.getElementById("prenomValidationFeedback");
             const pseudoFeedback = document.getElementById("pseudoValidationFeedback");
             const emailFeedback = document.getElementById("emailValidationFeedback");
-         
+
             nomInput.addEventListener("input", function() {
                 toggleValidity(nomInput, nomFeedback, /^[a-zA-ZÀ-ÿ -]*$/, "Seules les lettres, les espaces et les tirets sont autorisés dans le champ Nom");
             });
             prenomInput.addEventListener("input", function() {
                 toggleValidity(prenomInput, prenomFeedback, /^[a-zA-ZÀ-ÿ -]*$/, "Seules les lettres, les espaces et les tirets sont autorisés dans le champ Prénom");
             });
-    
+
             pseudoInput.addEventListener("input", function() {
                 toggleValidity(pseudoInput, pseudoFeedback, /^[a-zA-ZÀ-ÿ\d]+$/, "Seules les lettres et les chiffres sont autorisés dans le champ Pseudo");
                 if (pseudoInput.value.length < 6) {
@@ -183,7 +187,7 @@
                     formIsValid = false;
                     toggleValidity(emailInput, emailFeedback);
                 }
-            
+
                 // Vérification du champ Mot de passe
                 if (!password.value || password.classList.contains("is-invalid")) {
                     formIsValid = false;
@@ -193,7 +197,7 @@
                 if (!confirmPassword.value || confirmPassword.classList.contains("is-invalid")) {
                     formIsValid = false;
                 }
-               
+
                 // Validation des CGU
                 const cguCheckbox = document.getElementById("cgu");
                 const cguValidationFeedback = document.getElementById("cguValidationFeedback");

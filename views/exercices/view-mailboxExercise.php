@@ -17,43 +17,46 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-    <h1>Exercices sur la boite email</h1>
+    <main>
 
-    <div class="container">
-        <div class="row">
-        <p>Vous trouverez ci-dessous des exercices à effectuer sur les boites mail.</p>
-            
-        <!-- Liste des pdf à télécharger -->
-            <?php if (count($pdfs) > 0): ?>
-    <ul>
-        <?php
-        $uploadDir = '../assets/pdf/exercices/web/'; 
+        <h1>Exercices sur la boite email</h1>
 
-        foreach ($pdfs as $pdf): ?>
-            <li>
-                <?php
-                // Générer le chemin complet du fichier
-                $fichierComplet = $uploadDir . $pdf['nom_fichier'];
+        <div class="container">
+            <div class="row">
+                <p>Vous trouverez ci-dessous des exercices à effectuer sur les boites mail.</p>
 
-                if (file_exists($fichierComplet)) {
-                    echo '<a href="' . $fichierComplet . '" target="_blank">';
-                } else {
-                    echo '<span class="text-muted">Fichier indisponible</span>';
-                }
-                echo $pdf['nom_fichier'];
-                echo '</a>';
-                ?>
-            </li>
-        <?php endforeach; ?>
-    </ul>
-<?php else: ?>
-    <p>Aucun fichier PDF trouvé.</p>
-<?php endif; ?>
+                <!-- Liste des pdf à télécharger -->
+                <?php if (count($pdfs) > 0) : ?>
+                    <ul>
+                        <?php
+                        $uploadDir = '../assets/pdf/exercices/web/';
 
+                        foreach ($pdfs as $pdf) : ?>
+                            <li>
+                                <?php
+                                // Générer le chemin complet du fichier
+                                $fichierComplet = $uploadDir . $pdf['nom_fichier'];
+
+                                if (file_exists($fichierComplet)) {
+                                    echo '<a href="' . $fichierComplet . '" target="_blank">';
+                                } else {
+                                    echo '<span class="text-muted">Fichier indisponible</span>';
+                                }
+                                echo $pdf['nom_fichier'];
+                                echo '</a>';
+                                ?>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php else : ?>
+                    <p>Aucun fichier PDF trouvé.</p>
+                <?php endif; ?>
+
+            </div>
         </div>
-    </div>
 
 
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
@@ -63,8 +66,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 
-    
-    
+
+
 </body>
 
 </html>

@@ -17,12 +17,15 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
 
     <h1>Entretenir son ordinateur</h1>
 
     <div class="container">
        
     </div>
+
+</main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

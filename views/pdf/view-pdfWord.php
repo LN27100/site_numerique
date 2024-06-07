@@ -18,6 +18,7 @@
     </header>
 
 
+    <main>
 
     <h1>Liste des pdf sur les logiciels de traitement de texte</h1>
 
@@ -55,6 +56,7 @@
         </div>
     </div>
 
+</main>
 
 
     <footer>

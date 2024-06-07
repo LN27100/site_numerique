@@ -17,17 +17,17 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
+        <h1>Les clés USB</h1>
 
-    <h1>Les clés USB</h1>
 
+        <div class="container">
+            <div class="row">
 
-    <div class="container">
-        <div class="row">
-        
+            </div>
         </div>
-    </div>
 
-
+    </main>
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>

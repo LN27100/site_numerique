@@ -18,10 +18,15 @@
     </header>
 
 
-
+    <main>
 
     <h1>Les disques durs</h1>
-   
+    <div class="container">
+        <div class="row">
+           
+        </div>
+    </div>
+</main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

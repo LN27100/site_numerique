@@ -17,6 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
 
     <h1>Logiciel de présentation</h1>
 
@@ -25,6 +26,8 @@
            
         </div>
     </div>
+
+</main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

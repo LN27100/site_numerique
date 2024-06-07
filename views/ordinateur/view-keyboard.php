@@ -18,7 +18,7 @@
     </header>
 
 
-   
+    <main>
 
     <h1>Utiliser le clavier</h1>
 
@@ -30,7 +30,8 @@
     </div>
 
 
-
+    </main>
+    
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>

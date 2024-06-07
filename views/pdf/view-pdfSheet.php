@@ -17,14 +17,13 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-
+    <main>
 
     <h1>Liste des pdf sur les logiciels tableur</h1>
 
 
     <div class="container">
         <div class="row">
-        
 
             <!-- Liste des pdf à télécharger -->
             <?php if (count($pdfs) > 0): ?>
@@ -56,7 +55,7 @@
         </div>
     </div>
 
-
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

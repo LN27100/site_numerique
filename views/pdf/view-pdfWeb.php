@@ -17,7 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-
+    <main>
 
     <h1>Liste des pdf sur l'utilisation du web et de la boite mail</h1>
 
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

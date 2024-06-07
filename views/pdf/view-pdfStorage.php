@@ -17,7 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
-
+    <main>
 
     <h1>Liste des pdf sur les différents stockages</h1>
 
@@ -55,7 +55,7 @@
         </div>
     </div>
 
-
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

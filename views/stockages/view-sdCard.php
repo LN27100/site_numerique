@@ -17,6 +17,7 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
 
     <h1>Les cartes SD</h1>
 
@@ -25,6 +26,7 @@
            
         </div>
     </div>
+</main>
 
 
     <footer>

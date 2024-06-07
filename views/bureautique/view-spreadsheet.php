@@ -17,14 +17,17 @@
         <?php include '../templates/header.php'; ?>
     </header>
 
+    <main>
 
-    <h1>Le tableur</h1>
+        <h1>Le tableur</h1>
 
-    <div class="container">
-        <div class="row">
-           
+        <div class="container">
+            <div class="row">
+
+            </div>
         </div>
-    </div>
+
+    </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
