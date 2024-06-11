@@ -26,23 +26,31 @@
             <div class="row">
                 <h2>Démarrer l'ordinateur</h2>
 
-                <ol>
-                    <li>Allumer l'écran : Si vous utilisez un ordinateur de bureau, allumez l'écran en appuyant sur son bouton d'alimentation.</li>
-                    <li>Appuyer sur le bouton d'alimentation : Trouvez le bouton d'alimentation de l'ordinateur et appuyez dessus.</li>
-                    <li>Attendre le démarrage : Attendez que l'ordinateur démarre complètement et affiche l'écran de connexion ou le bureau.</li>
-                </ol>
+                <div class="container3">
+                    <img src="/assets/img/demarrer.JPG" alt="bouton démarrer" class="imgageAccueil">
+                    <ol>
+                        <li>Allumer l'écran : Si vous utilisez un ordinateur de bureau, allumez l'écran en appuyant sur son bouton d'alimentation.</li>
+                        <li>Appuyer sur le bouton d'alimentation : Trouvez le bouton d'alimentation de l'ordinateur et appuyez dessus.</li>
+                        <li>Attendre le démarrage : Attendez que l'ordinateur démarre complètement et affiche l'écran de connexion ou le bureau.</li>
+                    </ol>
+                </div>
 
                 <h2>Eteindre l'ordinateur</h2>
 
                 <p>Afin d'éteindre l'ordinateur, vous devez impérativement suivre le processus correctement pour plusieurs raisons: </p>
-                <ul>
-                    <li>La prévention de la perte de données</li>
-                    <li>L'intégrité du système de fichiers</li>
-                    <li>La prévention des corruptions logicielles</li>
-                    <li>La mise à jour du système et des logiciels</li>
-                    <li>Le nettoyage des fichiers temporaires</li>
-                    <li>La préservation du matériel</li>
-                </ul>
+
+                <div class="container3">
+                    <img src="/assets/img/arreter.png" alt="logo windows" class="imgageAccueil">
+
+                    <ul>
+                        <li>La prévention de la perte de données</li>
+                        <li>L'intégrité du système de fichiers</li>
+                        <li>La prévention des corruptions logicielles</li>
+                        <li>La mise à jour du système et des logiciels</li>
+                        <li>Le nettoyage des fichiers temporaires</li>
+                        <li>La préservation du matériel</li>
+                    </ul>
+                </div>
 
                 <p class="anim">Voici la procédure correcte d'arrêt de l'ordinateur:</p>
                 <ol>
