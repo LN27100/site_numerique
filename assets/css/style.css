@@ -337,16 +337,6 @@ body > footer > footer > div.container > section > div > div > h6 > a {
   text-decoration: none;
 }
 
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl,
-.container-xxl {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 body > footer > div > footer > div.text-center.p-3 {
   color: white;
   font-family: "Quantico", sans-serif;
@@ -421,7 +411,6 @@ body > div > form > div:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 .buttonHome2 {
