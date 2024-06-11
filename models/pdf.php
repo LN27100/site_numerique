@@ -70,4 +70,39 @@ class Pdf
             die();
         }
     }
+
+    /**
+     * Méthode permettant de rechercher des fichiers PDF par mots-clés dans la base de données
+     * 
+     * @param string $keyword
+     * @return array
+     */
+    public static function searchByKeyword(string $keyword): array
+    {
+        try {
+            // Création d'un objet $pdo selon la classe PDO
+            $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASSWORD);
+            $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+            // Préparation de la requête SQL avec des paramètres nominatifs pour éviter les injections SQL
+            $sql = "SELECT * FROM `fichiers_pdf` WHERE `nom_fichier` LIKE :keyword";
+            $query = $pdo->prepare($sql);
+
+            // Liaison des valeurs des paramètres
+            $query->bindValue(':keyword', '%' . $keyword . '%', PDO::PARAM_STR);
+
+            // Exécution de la requête
+            $query->execute();
+
+            // Récupération des résultats dans un tableau
+            $result = $query->fetchAll(PDO::FETCH_ASSOC);
+
+            // Retour du résultat
+            return $result ?? [];
+        } catch (PDOException $e) {
+            echo 'Erreur : ' . $e->getMessage();
+            die();
+        }
+    }
 }
+

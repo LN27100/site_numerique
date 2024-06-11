@@ -18,28 +18,35 @@
     </header>
 
     <main>
-
         <h1>Résultat de la recherche</h1>
-
-
         <div class="container">
             <div class="row">
-
+                <?php if (!empty($search_results)): ?>
+                    <?php foreach ($search_results as $result): ?>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <div class="card-body">
+                                    <h5 class="card-title"><?= htmlspecialchars($result['titre']) ?></h5>
+                                    <p class="card-text"><?= htmlspecialchars($result['description']) ?></p>
+                                    <!-- Ajouter des liens ou des boutons si nécessaire -->
+                                    <a href="<?= htmlspecialchars($result['fichier']) ?>" class="btn btn-primary">Télécharger</a>
+                                </div>
+                            </div>
+                        </div>
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <p>Aucun résultat trouvé pour votre recherche.</p>
+                <?php endif; ?>
             </div>
         </div>
-
     </main>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
-
-
-
 </body>
 
 </html>
