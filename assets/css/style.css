@@ -14,7 +14,10 @@ h1 {
   margin-top: 3rem;
 }
 
-p, ul, li, ol {
+p,
+ul,
+li,
+ol {
   font-family: "Quantico", sans-serif;
 }
 
@@ -64,9 +67,15 @@ h3 {
   background-color: #d5c1a1;
 }
 
-ol li::marker, ul li::marker {
+ol li::marker,
+ul li::marker {
   font-weight: bold;
   color: #928268;
+}
+
+.containerClavier {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .container3 {
@@ -79,6 +88,19 @@ ol li::marker, ul li::marker {
   height: auto;
   margin-right: 1rem;
   margin-bottom: 1rem;
+}
+
+.lienPDF {
+  font-weight: bold;
+  color: #5d3a1a;
+}
+
+.text-margin {
+  margin-left: 1rem;
+}
+
+.text-margin2 {
+  margin-left: 5rem;
 }
 
 /* NAVBAR */
@@ -344,7 +366,6 @@ body > footer > div > footer > div.text-center.p-3 {
   margin: 0 auto;
   margin-top: 1rem;
 }
-
 
 footer {
   font-family: "Quantico", sans-serif;

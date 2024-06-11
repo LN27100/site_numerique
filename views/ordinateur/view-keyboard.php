@@ -20,18 +20,44 @@
 
     <main>
 
-    <h1>Utiliser le clavier</h1>
+        <h1>Utiliser le clavier</h1>
 
 
-    <div class="container">
-        <div class="row">
-           
+        <div class="container">
+            <div class="row">
+                <p>Utiliser le clavier de l'ordinateur peut sembler complexe lorsque nous arrivons face à celui-ci sans aide lorsqu'on se rend compte que sur une touche, on peut avoir jusquà 3 caracères.
+                <p>Comment faire tous ces caractères afin de pouvoir les utiliser, comment faire un arobase @ si important de nos jours pour envoyer un email? Comment Réaliser une majuscule, un accent, afin d'écrire un courrier correctement? </p>
+
+            
+                <div class="containerClavier">
+                    <img src="/assets/img/lettre-c.png" alt="lettre c">
+                    <img src="/assets/img/lettre-l.png" alt="lettre l">
+                    <img src="/assets/img/lettre-a.png" alt="lettre a">
+                    <img src="/assets/img/lettre-v.png" alt="lettre v">
+                    <img src="/assets/img/lettre-i.png" alt="lettre i">
+                    <img src="/assets/img/lettre-e.png" alt="lettre e">
+                    <img src="/assets/img/lettre-r.png" alt="lettre r">
+                </div>
+
+                <div class="container3">
+                    <img src="/assets/img/verrouillage.png" alt="touche verrouillage">
+                    <p class="text-margin">La touche Caps Lock (vérouillage) permet de verrouiller le mode du clavier en MAJ (majuscule) ou de dévérouiller ce mode et donc de repasser en minuscule, ce qui permet d'écrire tout un texte, plusieurs chiffres ou caractères sans garder la touche Shift (flêche vers le haut) maintenue. </p>
+                </div>
+
+                <div class="container3">
+                    <img src="/assets/img/fleche-vers-le-haut.png" alt="touche flêche vers le haut">
+                    <p class="text-margin">La touche SHIFT (flêche vers le haut), permet des majuscules temporaires en appuyant sur Shift et une lettre en même temps sans activer la touche Verrouillage ci-dessus. Par exemple, en appuyant sur SHIFT + a, vous obtiendrez "A".</p>
+                </div>
+                <p class="text-margin2">Elle permet également l'accès aux caractères supplémentaires (voir pdf à télécharger)</p>
+                <p class="text-margin2">Cette touche permet aussi la sélection de texte et de contenu et d'effectuer des raccourcis clavier. (voir pdf à télécharger A VENIR)</p>
+                <p class="lienPDF">Vous retrouverez tout cela en détail, touche par touche, dans le fichier "caracteres_clavier" du sous-menu "Ordinateur" de l'onglet "PDF à télécharger"</p>
+
+            </div>
         </div>
-    </div>
 
 
     </main>
-    
+
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>
@@ -40,8 +66,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="/assets/js/script.js"></script>
 
-    
-    
+
+
 </body>
 
 </html>
