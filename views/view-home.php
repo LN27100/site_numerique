@@ -89,6 +89,12 @@
     </div>
 
     <div class="align-right">
+        <a class="bi bi-arrow-up" href="#top">
+                Haut de page
+            </a>
+        </div>
+
+    <div class="align-right">
     <p class="libreDroits">Images du site libres de droit, sources: shutterstock, pexels et pixabay</p>
     </div>
 
