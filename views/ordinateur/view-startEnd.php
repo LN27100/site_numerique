@@ -12,8 +12,8 @@
     <title>Manipuler l'ordinateur</title>
 </head>
 
-<body>
-    <header id="top">
+<body id="top">
+    <header>
         <?php include '../templates/header.php'; ?>
     </header>
 
@@ -66,11 +66,17 @@
         </div>
 
         <div class="container">
-        <p class="lienPDF">Retrouver le fichier détaillé "bases_ordinateur" dans le sous-menu "Ordinateur" de l'onglet "PDF à télécharger"</p>
+            <p class="lienPDF">Retrouver le fichier détaillé "bases_ordinateur" dans le sous-menu "Ordinateur" de l'onglet "PDF à télécharger"</p>
         </div>
+
 
     </main>
 
+    <div class="align-right">
+        <a class="bi bi-arrow-up" href="#top">
+                Haut de page
+            </a>
+        </div>
 
     <footer>
         <?php include '../templates/footer.php'; ?>

@@ -33,6 +33,12 @@
     </div>
     </main>
 
+    <div class="align-right">
+        <a class="bi bi-arrow-up" href="#top">
+                Haut de page
+            </a>
+        </div>
+        
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>

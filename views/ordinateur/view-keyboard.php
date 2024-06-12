@@ -28,7 +28,7 @@
                 <p>Utiliser le clavier de l'ordinateur peut sembler complexe lorsque nous arrivons face à celui-ci sans aide lorsqu'on se rend compte que sur une touche, on peut avoir jusquà 3 caracères.
                 <p>Comment faire tous ces caractères afin de pouvoir les utiliser, comment faire un arobase @ si important de nos jours pour envoyer un email? Comment Réaliser une majuscule, un accent, afin d'écrire un courrier correctement? </p>
 
-            
+
                 <div class="containerClavier">
                     <img src="/assets/img/lettre-c.png" alt="lettre c">
                     <img src="/assets/img/lettre-l.png" alt="lettre l">
@@ -55,9 +55,15 @@
             </div>
         </div>
 
-
+       
     </main>
 
+    <div class="align-right">
+            <a class="bi bi-arrow-up" href="#top">
+                Haut de page
+            </a>
+        </div>
+        
     <footer>
         <?php include '../templates/footer.php'; ?>
     </footer>

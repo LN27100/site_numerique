@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
 /*     font-family: "Quantico", sans-serif; */
 
+
+
 /* CSS GENERALES DES PAGES */
 
 h1 {
@@ -266,29 +268,66 @@ body > div.container.card-container > div {
   flex: 1;
 }
 
-/* Si une seule carte est présente, lui donner une largeur fixe */
-#search-results .row .col-4:first-child:nth-last-child(1) .result-card {
-  width: 50rem;
-}
-
-/* Ajuster la taille de l'image lorsque la carte est de 50rem de large */
-#search-results
-  .row
-  .col-4:first-child:nth-last-child(1)
-  .result-card
-  .card-image
-  img {
-  max-width: 20rem;
-}
-
-#search-results > div > div > div > h3 > div.card-image > img {
-  padding: 1rem;
-}
-
-/* Centrer l'image à l'intérieur de la carte */
-#search-results .result-card .card-image {
+.card {
+  height: 7rem; /* Assure une hauteur fixe de la carte */
+  border: 1px solid #5d3a1a;
+  border-radius: 0.3rem;
+  margin: 1.2rem;
+  background: linear-gradient(
+    0deg,
+    rgba(213, 193, 161, 1) 18%,
+    rgba(179, 160, 129, 1) 39%,
+    rgba(146, 130, 104, 1) 73%
+  );
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-body {
+  display: flex; /* Utilisation de Flexbox */
+  flex-direction: column; /* Organisation des enfants en colonne */
+  justify-content: center; /* Centre le contenu verticalement */
+  align-items: center; /* Centre le contenu horizontalement */
+}
+
+.card-title {
+  word-wrap: break-word; /* Permet au texte de revenir à la ligne si un mot est trop long */
+  word-break: break-all; /* Coupe les mots si nécessaire pour éviter le dépassement */
+  text-align: center; /* Centre le texte */
+  width: 100%; /* Prend toute la largeur de la carte */
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button2 {
+  color: white;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  background-color: #453929;
+  border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: #83745d;
+}
+
+.button2.disabled {
+  background-color: grey;
+  cursor: not-allowed;
 }
 
 /* FOOTER */
@@ -361,77 +400,11 @@ footer {
   font-family: "Quantico", sans-serif;
 }
 
-/* PAGE COURS */
 
-.card {
-  position: relative;
-  width: 19rem;
-  height: 7rem;
-  border: 1px solid #ccc;
-  border-radius: 0.3rem;
-  overflow: hidden;
-  margin: 1.2rem;
-  background: linear-gradient(
-    0deg,
-    rgba(213, 193, 161, 1) 18%,
-    rgba(179, 160, 129, 1) 39%,
-    rgba(146, 130, 104, 1) 73%
-  );
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
-}
 
-.card-image {
-  position: relative;
-}
 
-.card-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 0.3rem;
-}
 
-body > div > form > div:nth-child(4) > a {
-  text-decoration: none;
-  color: #83745d;
-  font-family: "Quantico", sans-serif;
-}
 
-body > h2 {
-  font-family: "Black Ops One", system-ui;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  color: #83745d;
-  text-align: center;
-}
-
-body > div > form > div:nth-child(3) {
-  height: 5rem;
-}
-
-.container2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.button2 {
-  color: white;
-  text-decoration: none;
-  margin-top: 0.5rem;
-  margin-left: 0.5rem;
-  align-items: center;
-  padding: 0.2rem 0.5rem;
-  background-color: #453929;
-  border-radius: 10px;
-}
-
-.button2:hover {
-  background-color: #83745d;
-}
-
-body.page-profil {
-  overflow-y: auto;
-}
 
 /* RESPONSIVE */
 
