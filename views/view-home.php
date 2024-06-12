@@ -88,6 +88,9 @@
         </div>
     </div>
 
+    <div class="align-right">
+    <p class="libreDroits">Images du site libres de droit, sources: shutterstock, pexels et pixabay</p>
+    </div>
 
 
     <footer>

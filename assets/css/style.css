@@ -127,6 +127,10 @@ ul li::marker {
   color: #5d3a1a;
 }
 
+.libreDroits {
+  font-size: 0.5rem;
+}
+
 .text-margin {
   margin-left: 1rem;
 }
