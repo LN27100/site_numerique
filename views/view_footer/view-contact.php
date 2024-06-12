@@ -25,7 +25,46 @@
         </div>
 
         <div class="containerUsage">
+
             <h1 class="specialColor">Contact</h1>
+
+            <form class="was-validated">
+
+                <div class="form-group">
+                    <label for="validationCustom02">Nom</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Adresse email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Sujet</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option selected>Sélectionnez un sujet</option>
+                        <option>Cours</option>
+                        <option>Exercices</option>
+                        <option>Corrigés</option>
+                        <option>Autres</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="validationTextarea">Message</label>
+                    <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Cochez la case</label>
+                </div>
+                <button type="submit" class="button2">Soumettre</button>
+
+
+            </form>
+
 
         </div>
     </main>
