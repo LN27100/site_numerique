@@ -46,11 +46,11 @@
 
                 <div class="container3">
                     <img src="/assets/img/fleche-vers-le-haut.png" alt="touche flêche vers le haut">
-                    <p class="text-margin">La touche SHIFT (flêche vers le haut), permet des majuscules temporaires en appuyant sur Shift et une lettre en même temps sans activer la touche Verrouillage ci-dessus. Par exemple, en appuyant sur SHIFT + a, vous obtiendrez "A".</p>
-                </div>
-                <p class="text-margin2">Elle permet également l'accès aux caractères supplémentaires (voir pdf à télécharger)</p>
-                <p class="text-margin2">Cette touche permet aussi la sélection de texte et de contenu et d'effectuer des raccourcis clavier. (voir pdf à télécharger A VENIR)</p>
-                <p class="lienPDF">Vous retrouverez tout cela en détail, touche par touche, dans le fichier "caracteres_clavier" du sous-menu "Ordinateur" de l'onglet "PDF à télécharger"</p>
+                    <p class="text-margin">La touche SHIFT (flêche vers le haut), permet des majuscules temporaires en appuyant sur Shift et une lettre en même temps sans activer la touche Verrouillage ci-dessus. <span style="font-weight: bold;">Par exemple</span> en appuyant sur SHIFT + a, vous obtiendrez "A".</p>
+                    </div>
+                <p class="text-margin2">Elle permet également l'accès aux caractères supplémentaires (voir pdf "caracteres_clavier")</p>
+                <p class="text-margin2">Cette touche permet aussi la sélection de texte et de contenu et d'effectuer des raccourcis clavier. (voir pdf "A VENIR")</p>
+                <p class="lienPDF">Vous retrouverez tout cela en détail, touche par touche, dans les fichiers du sous-menu "Ordinateur" de l'onglet "PDF à télécharger"</p>
 
             </div>
         </div>

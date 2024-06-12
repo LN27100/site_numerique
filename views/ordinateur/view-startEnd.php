@@ -37,7 +37,16 @@
 
                 <h2>Eteindre l'ordinateur</h2>
 
-                <p>Afin d'éteindre l'ordinateur, vous devez impérativement suivre le processus correctement pour plusieurs raisons: </p>
+                <p class="anim">Voici la procédure correcte d'arrêt de l'ordinateur:</p>
+                <ol>
+                    <li>Sauvegarder le travail : Sauvegardez tous les fichiers et documents ouverts pour ne pas perdre vos données.</li>
+                    <li>Fermer les applications : Fermez toutes les applications et programmes ouverts.</li>
+                    <li>Cliquer sur le bouton Démarrer : Cliquez sur le bouton "Démarrer" en bas à gauche de l'écran.</li>
+                    <li>Sélectionner "Arrêter" : Dans le menu, sélectionnez "Arrêter" ou "Éteindre".</li>
+                    <li>Confirmer l'arrêt : Si une fenêtre de confirmation apparaît, cliquez sur "Oui" ou "Confirmer".</li>
+                </ol>
+
+                <p>Vous devez impérativement suivre le processus correctement pour plusieurs raisons: </p>
 
                 <div class="container3">
                     <img src="/assets/img/arreter.png" alt="logo windows" class="imgageAccueil">
@@ -51,16 +60,6 @@
                         <li>La préservation du matériel</li>
                     </ul>
                 </div>
-
-                <p class="anim">Voici la procédure correcte d'arrêt de l'ordinateur:</p>
-                <ol>
-                    <li>Sauvegarder le travail : Sauvegardez tous les fichiers et documents ouverts pour ne pas perdre vos données.</li>
-                    <li>Fermer les applications : Fermez toutes les applications et programmes ouverts.</li>
-                    <li>Cliquer sur le bouton Démarrer : Cliquez sur le bouton "Démarrer" en bas à gauche de l'écran.</li>
-                    <li>Sélectionner "Arrêter" : Dans le menu, sélectionnez "Arrêter" ou "Éteindre".</li>
-                    <li>Confirmer l'arrêt : Si une fenêtre de confirmation apparaît, cliquez sur "Oui" ou "Confirmer".</li>
-                </ol>
-
 
             </div>
         </div>

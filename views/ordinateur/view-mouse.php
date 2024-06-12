@@ -16,7 +16,7 @@
 </head>
 
 <body id="top">
-    <header >
+    <header>
         <?php include '../templates/header.php'; ?>
     </header>
 
@@ -29,8 +29,10 @@
 
 
                 <div class="container2">
-                    <img class="imgageAccueil" src="/assets/img/souris_filaire.jpg" alt="souris filaire">
-                    <img class="imgageAccueil" src="/assets/img/souris_sans_fil.JPG" alt="souris sans fil">
+                    <div class="images-column">
+                        <img class="imgageAccueil" src="/assets/img/souris_filaire.jpg" alt="souris filaire">
+                        <img class="imgageAccueil" src="/assets/img/souris_sans_fil.JPG" alt="souris sans fil">
+                    </div>
 
                     <ol>
                         <li>Tenir la Souris Correctement</li>
@@ -83,14 +85,14 @@
             </div>
         </div>
 
-       
+
     </main>
 
     <div class="align-right">
         <a class="bi bi-arrow-up" href="#top">
-                Haut de page
-            </a>
-        </div>
+            Haut de page
+        </a>
+    </div>
 
     <footer>
         <?php include '../templates/footer.php'; ?>
