@@ -32,7 +32,7 @@
                 <?php if (count($pdfs) > 0) : ?>
                     <ul>
                         <?php
-                        $uploadDir = '../assets/pdf/exercices/tableur/';
+        $uploadDir = '../assets/pdf/'; 
 
                         foreach ($pdfs as $pdf) : ?>
                             <li>

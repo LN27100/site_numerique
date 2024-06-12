@@ -20,25 +20,36 @@
     <main>
         <h1>Résultat de la recherche</h1>
         <div class="container">
-            <div class="row">
-                <?php if (!empty($search_results)): ?>
-                    <?php foreach ($search_results as $result): ?>
-                        <div class="col-md-4">
-                            <div class="card mb-4">
-                                <div class="card-body">
-                                    <h5 class="card-title"><?= htmlspecialchars($result['titre']) ?></h5>
-                                    <p class="card-text"><?= htmlspecialchars($result['description']) ?></p>
-                                    <!-- Ajouter des liens ou des boutons si nécessaire -->
-                                    <a href="<?= htmlspecialchars($result['fichier']) ?>" class="btn btn-primary">Télécharger</a>
-                                </div>
-                            </div>
+    <div class="row">
+        <?php if (!empty($search_results)): ?>
+            <?php
+            // Répertoire où se trouvent les fichiers PDF
+            $uploadDir = '../assets/pdf/';
+
+            foreach ($search_results as $result): ?>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title"><?= htmlspecialchars($result['nom_fichier']) ?></h5>
+                            <?php
+                            // Générer le chemin complet du fichier
+                            $fichierComplet = $uploadDir . $result['nom_fichier'];
+
+                            if (file_exists($fichierComplet)): ?>
+                                <a href="<?= htmlspecialchars($fichierComplet) ?>" class="btn btn-primary" target="_blank">Télécharger</a>
+                            <?php else: ?>
+                                <span class="btn btn-secondary disabled">Fichier indisponible</span>
+                            <?php endif; ?>
                         </div>
-                    <?php endforeach; ?>
-                <?php else: ?>
-                    <p>Aucun résultat trouvé pour votre recherche.</p>
-                <?php endif; ?>
-            </div>
-        </div>
+                    </div>
+                </div>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>Aucun résultat trouvé pour votre recherche.</p>
+        <?php endif; ?>
+    </div>
+</div>
+
     </main>
 
     <footer>
