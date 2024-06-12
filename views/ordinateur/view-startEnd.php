@@ -27,7 +27,7 @@
                 <h2>Démarrer l'ordinateur</h2>
 
                 <div class="container3">
-                    <img src="/assets/img/demarrer.JPG" alt="bouton démarrer" class="imgageAccueil">
+                    <img src="/assets/img/demarrer.JPG" alt="bouton démarrer" class="image1">
                     <ol>
                         <li>Allumer l'écran : Si vous utilisez un ordinateur de bureau, allumez l'écran en appuyant sur son bouton d'alimentation.</li>
                         <li>Appuyer sur le bouton d'alimentation : Trouvez le bouton d'alimentation de l'ordinateur et appuyez dessus.</li>
@@ -49,7 +49,7 @@
                 <p>Vous devez impérativement suivre le processus correctement pour plusieurs raisons: </p>
 
                 <div class="container3">
-                    <img src="/assets/img/arreter.png" alt="logo windows" class="imgageAccueil">
+                    <img src="/assets/img/arreter.png" alt="logo windows" class="image1">
 
                     <ul>
                         <li>La prévention de la perte de données</li>

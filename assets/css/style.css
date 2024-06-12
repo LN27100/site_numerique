@@ -93,12 +93,27 @@ ul li::marker {
   align-items: flex-start;
 }
 
-.imgageAccueil {
+.imageAccueil {
   width: 20rem;
   height: auto;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
+
+.image1 {
+  width: 10rem;
+  height: auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.image2 {
+  width: 3rem;
+  height: auto;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
 
 .images-column {
   display: flex;
