@@ -36,9 +36,9 @@
                             $fichierComplet = $uploadDir . $result['nom_fichier'];
 
                             if (file_exists($fichierComplet)): ?>
-                                <a href="<?= htmlspecialchars($fichierComplet) ?>" class="btn btn-primary" target="_blank">Télécharger</a>
+                                <a href="<?= htmlspecialchars($fichierComplet) ?>" class="button2" target="_blank">Télécharger</a>
                             <?php else: ?>
-                                <span class="btn btn-secondary disabled">Fichier indisponible</span>
+                                <span class="button2 disabled">Fichier indisponible</span>
                             <?php endif; ?>
                         </div>
                     </div>

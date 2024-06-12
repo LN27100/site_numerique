@@ -366,6 +366,7 @@ footer {
 .card {
   position: relative;
   width: 19rem;
+  height: 7rem;
   border: 1px solid #ccc;
   border-radius: 0.3rem;
   overflow: hidden;
@@ -413,22 +414,18 @@ body > div > form > div:nth-child(3) {
   align-items: center;
 }
 
-.buttonHome2 {
+.button2 {
   color: white;
   text-decoration: none;
-  border-radius: 50px;
-  display: flex;
-  font-size: 1rem;
   margin-top: 0.5rem;
   margin-left: 0.5rem;
-  width: 2rem;
-  height: 2rem;
   align-items: center;
   padding: 0.2rem 0.5rem;
   background-color: #453929;
+  border-radius: 10px;
 }
 
-.buttonHome2:hover {
+.button2:hover {
   background-color: #83745d;
 }
 
@@ -459,13 +456,6 @@ body.page-profil {
     width: 100%;
     margin-top: 1rem;
   }
-  .table-container {
-    max-width: 100%;
-    padding: 0 1rem;
-  }
-  .popup-content {
-    width: 80%;
-  }
   .containerUsage {
     max-width: 90%;
   }
@@ -489,14 +479,6 @@ body.page-profil {
 
   .table-container img {
     width: 3rem;
-  }
-  .popup-content {
-    width: 90%;
-  }
-
-  .btnYes,
-  .btnNo {
-    padding: 8px 16px;
   }
   .containerUsage {
     padding: 0.5rem;
