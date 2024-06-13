@@ -28,56 +28,56 @@
 
             <h1 class="specialColor">Contact</h1>
 
-            <form class="was-validated" id="contactForm" novalidate>
+            <form class="was-validated" id="contactForm" method="POST" action="../controllers/controller-contact.php" novalidate>
+    <!-- Ajoutez les attributs name pour chaque champ -->
+    <div class="form-group">
+        <label for="validationCustom02">Nom</label>
+        <input type="text" class="form-control" id="validationCustom02" name="name" placeholder="Nom" required>
+        <div class="invalid-feedback">
+            Veuillez fournir un nom.
+        </div>
+    </div>
 
-                <div class="form-group">
-                    <label for="validationCustom02">Nom</label>
-                    <input type="text" class="form-control" id="validationCustom02" placeholder="Nom" required>
-                    <div class="invalid-feedback">
-                        Veuillez fournir un nom.
-                    </div>
-                </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Adresse email</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Entrez votre email" required>
+        <div class="invalid-feedback">
+            Veuillez fournir une adresse email valide.
+        </div>
+    </div>
 
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Adresse email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email" required>
-                    <div class="invalid-feedback">
-                        Veuillez fournir une adresse email valide.
-                    </div>
-                </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect1">Sujet</label>
+        <select class="form-control" id="exampleFormControlSelect1" name="subject" required>
+            <option value="" disabled selected>Sélectionnez un sujet</option>
+            <option value="Cours">Cours</option>
+            <option value="Exercices">Exercices</option>
+            <option value="Corrigés">Corrigés</option>
+            <option value="Autres">Autres</option>
+        </select>
+        <div class="invalid-feedback">
+            Veuillez sélectionner un sujet.
+        </div>
+    </div>
 
-                <div class="form-group">
-                    <label for="exampleFormControlSelect1">Sujet</label>
-                    <select class="form-control" id="exampleFormControlSelect1" required>
-                        <option value="" disabled selected>Sélectionnez un sujet</option>
-                        <option value="Cours">Cours</option>
-                        <option value="Exercices">Exercices</option>
-                        <option value="Corrigés">Corrigés</option>
-                        <option value="Autres">Autres</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Veuillez sélectionner un sujet.
-                    </div>
-                </div>
+    <div class="mb-3">
+        <label for="validationTextarea">Message</label>
+        <textarea class="form-control" id="validationTextarea" name="message" placeholder="Entrez votre message" required></textarea>
+        <div class="invalid-feedback">
+            Veuillez écrire un message.
+        </div>
+    </div>
 
-                <div class="mb-3">
-                    <label for="validationTextarea">Message</label>
-                    <textarea class="form-control" id="validationTextarea" placeholder="Entrez votre message" required></textarea>
-                    <div class="invalid-feedback">
-                        Veuillez écrire un message.
-                    </div>
-                </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+        <label class="form-check-label" for="exampleCheck1">Cochez la case</label>
+        <div class="invalid-feedback">
+            Merci de cocher la case.
+        </div>
+    </div>
+    <button type="submit" class="button2">Soumettre</button>
+</form>
 
-                <div class="form-group form-check">
-                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-                    <label class="form-check-label" for="exampleCheck1">Cochez la case</label>
-                    <div class="invalid-feedback">
-                        Merci de cocher la case.
-                    </div>
-                </div>
-                <button type="submit" class="button2">Soumettre</button>
-
-            </form>
 
         </div>
     </main>

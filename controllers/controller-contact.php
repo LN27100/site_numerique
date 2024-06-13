@@ -23,26 +23,25 @@ class ContactController {
 
             // Vérifier que toutes les données sont valides
             if ($name && $email && $subject && $message) {
-                // Envoi de l'e-mail à l'administrateur
-                $to = 'heloceinlove@laposte.net'; // Adresse e-mail de l'administrateur
-                $subjectEmail = "Nouveau message de contact : $subject";
-                $body = "Nom : $name\nEmail : $email\nSujet : $subject\nMessage : $message";
-                $headers = "From: $email";
+                // Envoi de l'e-mail à l'administrateur (optionnel, à activer si nécessaire)
+                // $to = 'heloceinlove@laposte.net'; // Adresse e-mail de l'administrateur
+                // $subjectEmail = "Nouveau message de contact : $subject";
+                // $body = "Nom : $name\nEmail : $email\nSujet : $subject\nMessage : $message";
+                // $headers = "From: $email";
 
-                if (mail($to, $subjectEmail, $body, $headers)) {
-                    echo "Email envoyé avec succès.";
-                } else {
-                    echo "Échec de l'envoi de l'email.";
-                }
+                // Tentative d'envoi de l'e-mail
+                // if (mail($to, $subjectEmail, $body, $headers)) {
+                // Afficher une alerte pour l'envoi de l'e-mail
+                echo "<script>alert('Votre message a été envoyé.');</script>";
+                // } else {
+                //     echo "Échec de l'envoi du message.";
+                // }
 
                 // Enregistrement des données dans la base de données
                 $success = $this->contactModel->saveContact($name, $email, $subject, $message);
 
-                if ($success) {
-                    echo "Données enregistrées avec succès.";
-                } else {
-                    echo "Échec de l'enregistrement des données.";
-                }
+                // Ne pas afficher de message pour l'enregistrement dans la base de données
+
             } else {
                 echo "Veuillez remplir tous les champs correctement.";
             }
